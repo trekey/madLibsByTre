@@ -1,4 +1,6 @@
 
+
+}
 .backgroundboxes {
     display: grid;
 }
@@ -6,11 +8,9 @@
 
 
 .forms{
- justify-content: space-between   ;
+ margin-left: 600px;
+
 }
-
-
-
 
     .title{
         text-align: center;
@@ -18,24 +18,24 @@
       font-family: Georgia, 'Times New Roman', Times, serif;
        width: 100vw;
        text-shadow:2px 2px black;
-       
+       font-size: 3vw
     }
     .welcolme{
         text-align: center;
         color: black;
         width:100vw;                               
-        
+        font-size: 2vw;
     }
 
    
     .submit1 {
-       width: 100vw;
+       width: 100px;
     }
     .introbox{
-        height:80px;
+        height:100px;
         width: 400px;
       background-color:lightslategrey;
-       
+       margin-left: 500px;
        
 
     }
