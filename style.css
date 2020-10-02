@@ -1,0 +1,45 @@
+
+.backgroundboxes {
+    display: grid;
+}
+
+
+
+.forms{
+ justify-content: space-between   ;
+}
+
+
+
+
+    .title{
+        text-align: center;
+        Color:orange;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+       width: 100vw;
+       text-shadow:2px 2px black;
+       
+    }
+    .welcolme{
+        text-align: center;
+        color: black;
+        width:100vw;                               
+        
+    }
+
+   
+    .submit1 {
+       width: 100vw;
+    }
+    .introbox{
+        height:80px;
+        width: 400px;
+      background-color:lightslategrey;
+       
+       
+
+    }
+
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
