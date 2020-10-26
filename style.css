@@ -1,6 +1,29 @@
 
 
+
+
+
+ 
+@media (max-width: 320px) {
+
+    input {
+        width: 20rem !important;
+    }
 }
+
+
+/* @media (max-width: 375px) {
+
+    .text h1 {
+        font-size: 4rem;
+    } */
+
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2r6vJAIyaUP5g5pl59f2i1TlEf-9w2WFTQw&usqp=CAU");
+    background-color: #cccccc;
+   }
+
 .backgroundboxes {
     display: grid;
 }
@@ -22,9 +45,10 @@
     }
     .welcolme{
         text-align: center;
-        color: black;
+        color: rgb(216, 215, 215);
         width:100vw;                               
         font-size: 2vw;
+        font-weight: 500;
     }
 
    
@@ -32,14 +56,28 @@
        width: 100px;
     }
     .introbox{
+        position: relative;
+        right: 0%;
+    
         height:100px;
         width: 400px;
       background-color:lightslategrey;
        margin-left: 500px;
-       
-
     }
 
+
+    #forms{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+
+  
+
     p{
+       
+        font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }

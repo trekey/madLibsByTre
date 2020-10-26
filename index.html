@@ -4,45 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"> <script src="app.js"></script>
 </head>
 
 
 
-<body background="grey" style="background-color:darkgrey;">
+<body>
 
 <h1 class="title">SPOOKY MADLIBS</h1>
 <p class="welcolme">
     HELLO! Welcolme to my madlibs generator!
     The instructions are simple; <br>
     First enter your answers to each of the prompts. <br>
-    Next hit submit and read your wacky madlibs below!
+    Next hit submit and read your SPOOKY madlibs below!
 </p>
+
 <form class="forms"> 
+    <!-- <form onSubmit="return false" action=""> -->
+        <ul>
+            <li><input type="text" placeholder="Tyep of Animal" id="animal"></li>
+            <li><input type="text" placeholder="State Name" id="state"></li>
+            <li><input type="text" placeholder="Local Store Name" id="store"></li>
+            <li><input type="text" placeholder="Type of Candy" id="candy"></li>
+            <li><input type="text" placeholder="Type Of Car" id="car"></li>
+        
+            <li><button type="button" id="button" onclick="createParagraph()">Submit!</button></li>
+        </ul>
+ </form>
+<div id= "answer"></div>
 
-<br><input class="animal"  type="text" placeholder="Animal">
-<br><br>
-<input  type="text" placeholder="State">
-<br><br>
-<input  type="text" placeholder="Store">
-<br><br>
-<input  type="text" placeholder="Car Type">
-<br><br>
-<input  type="text" placeholder="Celebrity">
-<br><br>
-<br><button type="submit">Submit!</button>
-</form>
 
-<div class="backgroundboxes">
-<div class="introbox"></div>
-</div>
-<!-- <div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div> -->
 
 </body>
 </html>
